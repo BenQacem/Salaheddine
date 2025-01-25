@@ -424,3 +424,80 @@ strong:hover{
     
     
 }
+/* Extra Small Screens: 264px */
+@media screen and (max-width: 264px) {
+    header {
+        padding: 5px;
+        flex-direction: column;
+    }
+
+    .logo {
+        width: 50px;
+    }
+
+    .menu_icons {
+        width: 25px;
+    }
+
+    .menu ul {
+        display: none;
+    }
+
+    .menu.active ul {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        position: absolute;
+        top: 50px;
+        left: 5px;
+        background: #fff;
+        padding: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .menu ul a {
+        font-size: 10px;
+        margin-left: 5px;
+    }
+
+    button {
+        padding: 4px 8px;
+        font-size: 10px;
+    }
+
+    .home {
+        padding: 10px;
+        height: 200px;
+    }
+
+    h1 {
+        font-size: 18px;
+    }
+
+    .foods-list img {
+        max-width: 200px;
+    }
+
+    .fidelity_prog {
+        padding: 10px;
+    }
+
+    .fidelity_prog div {
+        width: 100%;
+        max-width: 200px;
+    }
+
+    footer {
+        padding: 5px;
+        font-size: 10px;
+    }
+
+    footer .div2 ul a {
+        font-size: 10px;
+    }
+
+    .icones_social i {
+        font-size: 15px;
+        margin-right: 10px;
+    }
+}
